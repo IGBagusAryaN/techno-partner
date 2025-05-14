@@ -12,7 +12,7 @@ export default function Footer() {
         }`}
       >
         <img
-          src="/src/assets/home.svg"
+          src="/assets/home.svg"
           alt="home"
           className={`w-6 h-6 ${
             location.pathname === "/"
@@ -30,7 +30,7 @@ export default function Footer() {
         }`}
       >
         <img
-          src="/src/assets/Menu.svg"
+          src="/assets/Menu.svg"
           alt="menu"
           className={`w-6 h-6 ${
             location.pathname === "/menu"

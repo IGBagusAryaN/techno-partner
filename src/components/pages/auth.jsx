@@ -47,7 +47,7 @@ export const Login = () => {
   return (
     <div className="">
       <div className="flex flex-col  items-center h-screen gap-28">
-        <img src="/src/assets/logo-techno.png" alt="logo" className="mt-20" />
+        <img src="/assets/logo-techno.png" alt="logo" className="mt-20" />
         <form className="flex flex-col items-center" onSubmit={handleLogin}>
           <div className="flex flex-col items-center">
             <label htmlFor="email" className="text-gray-400 mb-1">

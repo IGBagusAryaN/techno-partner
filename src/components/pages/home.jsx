@@ -65,7 +65,7 @@ export default function Home() {
   return (
     <div className="space-y-4 bg-white min-h-screen">
       <Navbar />
-      <div className="p-4 bg-[url('/src/assets/pattern-BG.jpg')] ">
+      <div className="p-4 bg-[url('/assets/pattern-BG.jpg')] ">
         <div className="bg-white p-4 rounded-xl shadow-md">
           <p className="text-sm text-gray-500 font-semibold">
             {userInfo.greeting}
@@ -133,7 +133,7 @@ export default function Home() {
             onClick={() => setIsQrOpen(false)}
           >
             <img
-              src="/src/assets/close-x.svg"
+              src="/assets/close-x.svg"
               alt="close"
               className="w-5 h-5"
             />
